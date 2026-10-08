@@ -1,66 +1,183 @@
-# HR-Analytics-Dashboard
+# 📊 Employee Attrition Analysis | Power BI
 
-An interactive Power BI dashboard analyzing employee attrition across 1,470 employees. It explores attrition by department, age, gender, education, salary, job role, and tenure using DAX, Power Query, and slicers to turn HR data into clear, actionable insights.
+## 📌 About the Project
 
-## 📌 Project Overview
+Employee attrition is a key HR challenge that can influence workforce planning, employee retention, recruitment expenses, and overall business performance.
 
-Employee attrition is an important HR metric because frequent turnover can affect workforce stability, recruitment costs, productivity, and organizational planning.
+In this project, I developed an **interactive Power BI dashboard** to analyze employee attrition and understand how it varies across different workforce characteristics.
 
-This project provides an overview of the workforce and lets users explore attrition patterns across multiple employee attributes.
+The dashboard allows users to explore attrition based on **department, age, gender, education, salary, job role, and years of service**.
 
-The dashboard includes department-level filtering for:
+---
+
+## 📸 Dashboard Preview
+
+![Employee Attrition Power BI Dashboard](Dashboard_Screenshot.png)
+
+---
+
+## 🎯 Project Goals
+
+The key goals of this analysis are to:
+
+- Understand the overall employee attrition situation
+- Create meaningful HR KPIs for quick analysis
+- Explore attrition patterns across different age groups
+- Compare attrition between genders
+- Analyze attrition across educational backgrounds
+- Examine attrition at different salary levels
+- Study the relationship between tenure and attrition
+- Identify variations in attrition across job roles
+- Enable department-wise exploration using interactive filters
+- Convert employee data into clear and useful visual insights
+
+---
+
+## 📊 Workforce Snapshot
+
+| Metric | Value |
+|---|---:|
+| 👥 Total Employees | 1,470 |
+| 🚪 Employees Who Left | 237 |
+| 📉 Overall Attrition Rate | 16.1% |
+| 🎂 Average Employee Age | 36.92 |
+| 💰 Average Salary | 6.50K |
+| 🏢 Average Years at Company | 7.01 |
+
+These metrics provide an overall snapshot of the workforce and serve as the starting point for deeper analysis.
+
+---
+
+## 📈 Analysis Performed
+
+### 👥 Gender Analysis
+
+The dashboard compares employee attrition across genders to understand differences in the number of employees who left the organization.
+
+### 🎓 Education Analysis
+
+Attrition is examined across educational categories such as:
+
+- Life Sciences
+- Medical
+- Marketing
+- Technical Degree
+- Other
+
+This helps explore whether educational background is associated with differences in attrition.
+
+### 🎂 Age Analysis
+
+Employees are divided into the following age groups:
+
+- 18–25
+- 26–35
+- 36–45
+- 46–55
+- 55+
+
+This makes it easier to identify age groups where attrition is more prominent.
+
+### 💰 Salary Analysis
+
+Employee attrition is analyzed across salary bands:
+
+- Up to 5K
+- 5K–10K
+- 10K–15K
+- 15K+
+
+This provides a view of how attrition is distributed across different compensation levels.
+
+### ⏳ Tenure Analysis
+
+Years at the company are analyzed to understand how employee attrition changes throughout an employee's tenure.
+
+This can help identify potential retention challenges at different stages of employment.
+
+### 💼 Job Role Analysis
+
+The dashboard compares attrition across several job roles, including:
+
+- Healthcare Representative
+- Human Resources
+- Laboratory Technician
+- Manager
+- Manufacturing Director
+- Research Director
+- Research Scientist
+- Sales Executive
+- Sales Representative
+
+This provides a role-level view of employee attrition.
+
+### 🏢 Department Analysis
+
+The dashboard includes interactive filters for:
 
 - Human Resources
 - Research & Development
 - Sales
 
-## 📊 Key Metrics
+Users can select a department and view the corresponding changes across the dashboard.
 
-| Metric | Value |
-|---|---|
-| Total Employees | 1,470 |
-| Attrition | 237 |
-| Attrition Rate | 16.1% |
-| Average Age | 37 |
-| Average Salary | 6.5K |
-| Average Years at Company | 7.0 |
+---
 
-## 📈 Dashboard Visuals
+## 🔍 What This Dashboard Helps Answer
 
-- Attrition by Gender (Treemap)
-- Attrition by Education Field (Donut Chart)
-- Attrition by Age Group (Column Chart)
-- Attrition by Job Role and Job Level (Matrix)
-- Attrition by Salary Slab (Horizontal Bar Chart)
-- Attrition by Years at Company (Area Chart)
-- Attrition by Job Role (Horizontal Bar Chart)
+The analysis can help answer questions such as:
 
-## 🔍 Key Insights
+- How many employees have left the organization?
+- What is the overall attrition rate?
+- Which age groups show higher attrition?
+- How does attrition differ by gender?
+- Does attrition vary across education levels?
+- How is attrition distributed across salary ranges?
+- How does employee tenure relate to attrition?
+- Which job roles show different attrition patterns?
+- How does attrition vary between departments?
 
-- The overall attrition rate is **16.1%**, with 237 of 1,470 employees leaving.
-- The **26–35 age group** has the highest attrition (116 employees).
-- **150 male** and **87 female** employees left the company.
-- **Life Sciences (38%)** and **Medical (27%)** backgrounds lead attrition.
-- Employees earning **up to 5K** account for 163 departures.
-- Attrition peaks around **year 1–2** of tenure (59 employees).
-- **Laboratory Technician (62)** and **Sales Executive (57)** are the most affected roles.
+---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Techniques
 
-- **Power BI Desktop** for visualizations and report design
-- **Power Query** for data extraction, transformation, and loading
-- **DAX** for custom measures and calculations
-- **Slicers and page filters** for interactive filtering
+### Power BI
 
-## 🗂️ Dataset
+Used to build the interactive dashboard and create the visual analysis.
 
-The project uses an HR attrition dataset with 1,470 employee records across multiple departments. Key columns include:
+### Power Query
 
-- Department
-- Attrition Status
-- Age and Age Group
-- Gender
-- Education Field
-- Job Role and Job Level
-- Monthly Income and Salary Slab
-- Years at Company and Total Working Years
+Used to clean, transform, and prepare the employee dataset.
+
+### DAX
+
+Used to create calculated measures and HR KPIs.
+
+### Data Visualization
+
+Used charts, KPI cards, slicers, and interactive elements to communicate the analysis clearly.
+
+---
+
+## 🧠 Skills Applied
+
+- Power BI
+- Power Query
+- DAX
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis
+- Data Visualization
+- KPI Creation
+- Interactive Dashboard Development
+- Business Intelligence
+- HR Analytics
+- Insight Communication
+
+---
+
+## 💡 Project Outcome
+
+This project demonstrates how employee data can be transformed into an interactive HR analytics solution using Power BI.
+
+The dashboard brings multiple workforce dimensions together in one place, making it easier to explore attrition patterns and support **data-driven HR analysis and decision-making**.
