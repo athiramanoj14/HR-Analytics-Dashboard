@@ -12,7 +12,7 @@ The dashboard allows users to explore attrition based on **department, age, gend
 
 ## 📸 Dashboard Preview
 
-![Employee Attrition Power BI Dashboard](Dashboard_Screenshot.png)
+
 
 ---
 
