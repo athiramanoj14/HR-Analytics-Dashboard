@@ -12,6 +12,7 @@ The dashboard allows users to explore attrition based on **department, age, gend
 
 ## 📸 Dashboard Preview
 
+![Uploading Screenshot 2026-10-09 123132.png…]()
 
 
 ---
