@@ -11,11 +11,10 @@ The dashboard allows users to explore attrition based on **department, age, gend
 ---
 
 ## 📸 Dashboard Preview
+<img width="1332" height="750" alt="Screenshot 2026-10-09 123132" src="https://github.com/user-attachments/assets/9934053c-ed9f-4b4d-85d3-f8688701b64c" />
 
-![Uploading Screenshot 2026-10-09 123132.png…]()
 
 
----
 
 ## 🎯 Project Goals
 
